@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seoul City</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> Seoul City </a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="#">pages +</a>
+                <ul>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="blogs.html">blogs</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="#">account +</a>
+                <ul>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="register.html">register</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts      -->
+
+<section class="home">
+
+    <div class="slide active" style="background: url(images/Gangnam.jpg) no-repeat;">
+        <div class="content">
+            <span>SEOUL</span>
+            <h3>Gangnam</h3>
+            
+        </div>
+    </div>
+
+    <div class="slide" style="background: url(images/명동.jpg) no-repeat;">
+        <div class="content">
+            <span>SEOUL</span>
+            <h3>Myeong-dong</h3>
+            
+        </div>
+    </div>
+
+    <div class="slide" style="background: url(images/종로.jpg) no-repeat;">
+        <div class="content">
+            <span>SEOUL</span>
+            <h3>Jong-ro</h3>
+            
+        </div>
+    </div>
+
+    <div class="slide" style="background: url(images/홍대.jpg) no-repeat;">
+        <div class="content">
+            <span>SEOUL</span>
+            <h3>Hongdae</h3>
+            
+        </div>
+    </div>
+    
+    
+
+
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+
+<!-- home section ends     -->
+
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <div class="box">
+        <img src="images/광화문.jpg" alt="">
+        <div class="content">
+            <h3>Gwanghwamun</h3>
+            <a href="https://ko.wikipedia.org/wiki/%EA%B4%91%ED%99%94%EB%AC%B8" class="btn">Look !</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/경복궁.jpg" alt="">
+        <div class="content">
+            <h3>Gyeongbokgung </h3>
+            <a href="https://ko.wikipedia.org/wiki/%EA%B2%BD%EB%B3%B5%EA%B6%81" class="btn">Look !</a>
+        </div>
+    </div>
+    
+    <div class="box">
+        <img src="images/숭례문.jpg" alt="">
+        <div class="content">
+            <h3>Sungnyemun</h3>
+            <a href="https://ko.wikipedia.org/wiki/%EC%88%AD%EB%A1%80%EB%AC%B8" class="btn">Look !</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+            <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
+            <a href="blogs.html"> <i class="fas fa-angle-right"></i> blogs</a>
+            <a href="contact.html"> <i class="fas fa-angle-right"></i> contact</a>
+            <a href="login.html"> <i class="fas fa-angle-right"></i> login</a>
+            <a href="register.html"> <i class="fas fa-angle-right"></i> register</a>
+        </div>
+        
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/seoul.kr"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://twitter.com/seoulmania?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="https://www.instagram.com/seoul_official/"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://www.youtube.com/@seoullive"> <i class="fab fa-youtube"></i> youtube </a>
+        </div>
+
+</section>
+
+<!-- footer section ends -->
+
+</body>
+</html>
